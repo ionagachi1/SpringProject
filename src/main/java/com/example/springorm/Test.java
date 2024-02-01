@@ -26,11 +26,7 @@ public class Test{
         List<Product> products =  productDao.findAll();
         System.out.println(products);
 
-        System.out.println("End of program");
-        System.out.println("End of progra2");
-        System.out.println("End of program3");
-
-
+        System.out.println("End");0
 
     }
 }
