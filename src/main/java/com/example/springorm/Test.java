@@ -27,6 +27,8 @@ public class Test{
         System.out.println(products);
 
         System.out.println("End of program");
+        System.out.println("End of progra2");
+
 
     }
 }
