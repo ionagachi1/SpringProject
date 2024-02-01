@@ -27,7 +27,6 @@ public class Test{
         System.out.println(products);
 
         System.out.println("................");
-        System.out.println("-----------------");
 
     }
 }
