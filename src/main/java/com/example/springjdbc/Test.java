@@ -20,10 +20,10 @@ public class Test {
         //int result = dao.create(emp);
         //int result = dao.update(emp);
         //int result = dao.delete(1);
-        //Employee employee = dao.read(2);
+        Employee employee = dao.read(2);
+        System.out.println("Employee record: "+employee);
+
         List<Employee> result = dao.read();
-        //System.out.println("Number of inserted records are: "+result);
-        //System.out.println("Employee record: "+employee);
         System.out.println("Employee record: "+result);
 
     }
