@@ -26,7 +26,7 @@ public class Test{
         List<Product> products =  productDao.findAll();
         System.out.println(products);
 
-        System.out.println("local_new_features");
+        System.out.println("feature_development1");
 
     }
 }
