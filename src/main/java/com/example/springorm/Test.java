@@ -26,7 +26,7 @@ public class Test{
         List<Product> products =  productDao.findAll();
         System.out.println(products);
 
-        System.out.println("End");0
+        System.out.println("End");
 
     }
 }
