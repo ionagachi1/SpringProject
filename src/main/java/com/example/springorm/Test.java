@@ -27,6 +27,7 @@ public class Test{
         System.out.println(products);
 
         System.out.println("FINAL");
+        System.out.println("Test");
 
     }
 }
