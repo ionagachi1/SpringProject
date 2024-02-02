@@ -29,6 +29,7 @@ public class Test{
         System.out.println("new change on MASTER");
         System.out.println("change on local_branch2");
 
+        System.out.println("change on local_rebase_branch");
         System.out.println("FINAL change on MASTER");
 
     }
