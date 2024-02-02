@@ -26,8 +26,8 @@ public class Test{
         List<Product> products =  productDao.findAll();
         System.out.println(products);
 
-        System.out.println("FINAL");
         System.out.println("new change on MASTER");
+        System.out.println("change on local_branch2");
 
     }
 }
