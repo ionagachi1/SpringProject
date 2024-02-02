@@ -16,7 +16,7 @@
 
     <tx:annotation-driven/>
 
-    <context:component-scan base-package="com.example.springorm.product.dao">
+    <context:component-scan base-package="com.example.springorm.product">
     </context:component-scan>
     <bean class="org.springframework.jdbc.datasource.DriverManagerDataSource" name="dataSource"
           p:driverClassName="com.mysql.cj.jdbc.Driver"
@@ -34,7 +34,7 @@
         </property>
         <property name="annotatedClasses">
             <list>
-                <value>com.example.springorm.product.entity.Product</value>
+                <value>com.example.springorm.product.Product</value>
             </list>
         </property>
     </bean>
