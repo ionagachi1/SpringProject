@@ -1,4 +1,4 @@
-package com.example.springorm.product.entity;
+package com.example.springorm.product;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

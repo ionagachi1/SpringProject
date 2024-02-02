@@ -1,7 +1,7 @@
 package com.example.springorm;
 
-import com.example.springorm.product.dao.ProductDao;
-import com.example.springorm.product.entity.Product;
+import com.example.springorm.product.ProductDao;
+import com.example.springorm.product.Product;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,7 +10,7 @@ import java.util.List;
 public class Test{
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("springorm/springorm.xml");
-        ProductDao productDao = (ProductDao)context.getBean("productDao");
+        ProductDao productDao = (ProductDao) context.getBean("productDao");
         //Product product = new Product();
         //product.setId(1);
         //product.setName("iPhone");
@@ -26,7 +26,7 @@ public class Test{
         List<Product> products =  productDao.findAll();
         System.out.println(products);
 
-        System.out.println("change_feature_development1");
+        System.out.println("FINAL");
 
     }
 }
